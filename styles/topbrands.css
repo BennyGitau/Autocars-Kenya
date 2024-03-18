@@ -1,0 +1,39 @@
+/*Did not fork this time*/
+#header {
+    position: relative;
+    display: flex;
+    width: 100%;
+    background-image: url("https://th-test-11.slatic.net/p/08803c680dbff31b4dc500207ae10d45.jpg");
+    background-size: 100% 100%;
+ }
+ 
+ #heading > h1 { 
+    color: red;
+ }
+
+ #links > a {
+    float: right;
+    margin: 10px;
+    padding: 10px;
+    color: antiquewhite;
+
+ }
+
+ #header > div {
+    flex: 1;
+ }
+
+ .follow{
+    padding: 10px;
+    margin: 10px;
+    width:30px; 
+    height:30px;    
+ }
+
+ #foot{
+    background-color: darkred;
+    width: 100%;
+    height: 100px;
+
+ }
+
