@@ -1,0 +1,118 @@
+@media (max-width :760px) {
+body {
+    background-color: rgba(102, 226, 195, 0.5);
+}
+}
+/*#headingContainer {
+    position: fixed;
+    width: 100%;
+}*/
+#heading {
+    position: relative;
+    display: flex;
+    width: 100%;
+    background-image: url("https://th-test-11.slatic.net/p/08803c680dbff31b4dc500207ae10d45.jpg");
+    background-size: 100% 100%;
+ }
+#webname {
+    margin: 5px;
+    color: red;
+    width: 50%;
+    font-weight: bolder;
+    font-size: large;
+
+}
+#searchbar {
+    width: 40%;
+    float: right;
+    margin: auto;
+}
+input {
+    height: 40px;
+    width: 100%;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+span {
+  font-style: oblique;  
+}    
+
+.subheading {
+    background-color: rgba(4, 4, 14, 0.856);
+    width: 100%;
+    position: relative;
+    height: 50px;
+    font-weight: bolder;
+    color: red;
+    font-size: large;
+}
+.subheadtitle {
+float: left;
+margin: 10px;
+width: 30%;
+text-align: center;
+}
+
+#pages {
+width: 30%;
+float: right;
+}
+#pages > div {
+    margin: 10px;
+    height: 100%;
+    float: left;
+    color: aliceblue;
+}
+#wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+}
+img[alt="carImage"] {
+    width: 100%;
+    height: 300px;
+}
+th, td {
+    border-bottom: 1px solid black;
+    background-color:rgba(151, 187, 175, 0.5);
+    
+}
+
+#footersection {
+    display: flex;
+    width: 100%;
+    background-color: rgb(55, 73, 73);
+}
+#footersection > div {
+    flex: 1;
+    margin: 20px;
+    text-align: center;
+}
+.follow{
+    width: 30px;
+    height: 30px;
+    margin: 30px;
+}
+#icons {
+    color: #ff0000;
+}
+#linkToOtherPages {
+    width: 100%;
+}
+#linkToOtherPages > div {
+    float: right;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+a[href=""] {
+    color: white;
+}
+a:active {
+    color: white;
+}
+a:visited {
+    color: rgb(233, 81, 21);
+}
+
