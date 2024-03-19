@@ -8,5 +8,5 @@ Autocars Kenya is a brand that specializes on high perfomance cars with a focus 
 * [Features](#features)
 * [Usage](#usage)
 * [Contributions](#contact)
-* [acknowldegement] ()
+* [Acknowldegement](#Acknowledgement).
 
